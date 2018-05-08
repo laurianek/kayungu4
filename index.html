@@ -38,6 +38,7 @@ layout: page
 
 <section class="section lk-works" data-section="desire">
   <span class="lk-triangle lk-triangle--reverse"></span>
+  <span class="lk-triangle lk-triangle--reverse"></span>
   <div class="container">
     <!--<p>develops a favorable disposition towards the brand</p>-->
     <h2 class="title is-1 has-text-white">Works</h2>
@@ -189,9 +190,56 @@ layout: page
     </div>
   </div>
 </section>
-<section class="section lk-testimomials"></section>
-<section class="section lk-get-in-touch" data-section="action">
+<!--<section class="section lk-testimomials"></section>-->
+<section class="section lk-get-in-touch has-background-warning" data-section="action">
+  <div class="container">
+    <form accept-charset="UTF-8" action="https://usebasin.com/f/01cc786772b0" enctype="multipart/form-data" method="POST">
+      <h2 class="title is-2 text-center">Get in touch with me</h2>
+      <p class="subtitle is-5 text-center">
+        Have a project in mind? Drop me a line <br class="is-hidden-mobile"> and let's have a chat together
+      </p>
+      <div class="columns">
+        <div class="column">
 
+          <div class="field">
+            <label for="name" class="label">Your name</label>
+            <div class="control">
+              <input type="text" class="input" id="name" name="name" placeholder="e.g. John Doe" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="email" class="label">Your email</label>
+            <div class="control">
+              <input type="text" class="input" id="email" name="email" placeholder="e.g. person@example.com" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="company" class="label">Company</label>
+            <div class="control">
+              <input type="text" class="input" id="company" name="company" placeholder="e.g. Company Inc" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="field lk-get-in-touch-message">
+            <label for="message" class="label">Message</label>
+            <div class="control">
+              <textarea class="textarea" name="message" id="message" required placeholder="How can I help you?"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="button is-success is-medium">
+          Send<i class="fab fa-telegram-plane lk-send-icon"></i>
+        </button>
+      </div>
+
+    </form>
+  </div>
 </section>
 <footer class="footer has-background-black-ter">
   <div class="container">

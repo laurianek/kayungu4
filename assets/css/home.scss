@@ -25,6 +25,10 @@ body {
   display: block;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .lk-hero {
   background: transparent !important;
   position: relative;
@@ -177,7 +181,7 @@ body {
     border-left: none;
     border-right: transparent solid $triangle-width;
 
-    & ~ .lk-triangle {
+    & ~ .lk-triangle--reverse {
       border-right: none;
       border-left: transparent solid $triangle-width;
     }
@@ -196,5 +200,25 @@ body {
 
   .title.is-1 {
     margin-top: -100px;
+  }
+}
+
+.lk-send-icon {
+  margin-left: 5px;
+}
+
+.lk-get-in-touch-message {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .control {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textarea {
+    flex-grow: 1;
   }
 }
