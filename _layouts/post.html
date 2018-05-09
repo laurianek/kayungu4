@@ -1,25 +1,23 @@
 ---
 layout: default
 ---
-<header class="lk-page-header">
-  <h1 class="post-title">{{ page.title | escape }}</h1>
-</header>
 
 <section class="hero lk-pages-hero">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
-        Hero title
+        {{ page.title | escape }}
       </h1>
-      <h2 class="subtitle">
-        Hero subtitle
-      </h2>
+      {%- if page.subtitle -%}
+        <h2 class="subtitle">
+          {{ page.subtitle | escape }}
+        </h2>
+      {%- endif -%}
     </div>
   </div>
 </section>
 
-
-<article class="lk-pages-content section">
+<article class="lk-page-content section">
   <div class="container">
     {{ content }}
   </div>
