@@ -1,22 +1,31 @@
 ---
 layout: default
 ---
-<header class="lk-page-header">
-  <h1 class="post-title">{{ page.title | escape }}</h1>
-</header>
+<link rel="stylesheet" href="{{ '/assets/css/page.css' | relative_url }}">
+<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,700|Source+Sans+Pro:600" rel="stylesheet">
 
-<section class="hero lk-pages-hero">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">
-        Hero title
-      </h1>
-      <h2 class="subtitle">
-        Hero subtitle
-      </h2>
-    </div>
+
+<section class="hero is-medium lk-pages-hero"
+style="
+{% if page.background %}background: #{{ page.background }};{% endif %}
+"
+>
+  <div class="container">
+    <img src="{{ page.poster | relative }}" alt="{{ page.posterAlt }}">
   </div>
 </section>
+
+<header class="section lk-pages-header" style="
+{% if page.foreground %}color: #{{ page.foreground}};{% endif %}
+">
+  <span class="lk-triangle"></span>
+  <span class="lk-triangle" style="
+    {% if page.background %}color: #{{ page.background }};{% endif %}
+  "></span>
+  <div class="container">
+    <h1 class="post-title title is-1">{{ page.title | escape }}</h1>
+  </div>
+</header>
 
 
 <article class="lk-pages-content section">

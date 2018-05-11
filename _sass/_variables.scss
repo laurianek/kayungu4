@@ -1,0 +1,14 @@
+
+
+$lead-color: hsl(159, 30%, 66%);
+$works-color: hsl(159, 30%, 78%);
+
+
+//Mixins
+@mixin transition($prop...) {
+  -webkit-transition: $prop;
+  -moz-transition: $prop;
+  -ms-transition: $prop;
+  -o-transition: $prop;
+  transition: $prop;
+}

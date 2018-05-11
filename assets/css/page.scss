@@ -1,0 +1,46 @@
+---
+---
+@import "bulma";
+@import "shared";
+
+.lk-pages-hero {
+  background: $works-color;
+}
+
+.lk-pages-header {
+  position: relative;
+  padding-top: 30px;
+  margin-bottom: 30px;
+
+  .lk-triangle {
+    color: $works-color;
+
+    &:first-child {
+      display: none;
+    }
+    ~ .lk-triangle {
+      top: 0;
+    }
+  }
+  .title {
+    color: #fff;
+  }
+}
+
+.lk-pages-content {
+  .container {
+    max-width: 740px !important;
+    width: 100% !important;
+    padding: 0 20px ;
+  }
+
+  h1 {
+    @extend .title;
+    @extend .title.is-2;
+  }
+
+  h2 {
+    @extend .title;
+    @extend .title.is-3;
+  }
+}
