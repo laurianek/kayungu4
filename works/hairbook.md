@@ -1,13 +1,14 @@
 ---
 layout: page
-title: loveknitting & lovecrochet
-poster: '/assets/images/lovecrafts.png'
-posterAlt: 'todo'
-background: feb6cd
+title: hairbook
+subtile: Personal project
+poster: '/assets/images/hb.png'
+posterAlt: 'Personal project'
+background: ea447b
 foreground: fff
 ---
 
-# <i class="fas fa-exclamation-triangle"></i> Page Under Construction
+#  <i class="fas fa-exclamation-triangle"></i> Page Under Construction
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s

@@ -5,19 +5,15 @@ layout: default
 <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,700|Source+Sans+Pro:600" rel="stylesheet">
 
 
-<section class="hero is-medium lk-pages-hero"
-style="
+<section class="hero is-medium lk-pages-hero" style="
 {% if page.background %}background: #{{ page.background }};{% endif %}
-"
->
+">
   <div class="container">
     <img src="{{ page.poster | relative }}" alt="{{ page.posterAlt }}">
   </div>
 </section>
 
-<header class="section lk-pages-header" style="
-{% if page.foreground %}color: #{{ page.foreground}};{% endif %}
-">
+<header class="section lk-pages-header" style="{% if page.foreground %}color: #{{ page.foreground}};{% endif %}">
   <span class="lk-triangle"></span>
   <span class="lk-triangle" style="
     {% if page.background %}color: #{{ page.background }};{% endif %}
