@@ -20,6 +20,9 @@ layout: default
   "></span>
   <div class="container">
     <h1 class="post-title title is-1">{{ page.title | escape }}</h1>
+    {% if page.subtitle %}
+    <h2 class="subtitle is-4">{{ page.subtitle | escape }}</h2>
+    {% endif %}
   </div>
 </header>
 
