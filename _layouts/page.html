@@ -1,9 +1,7 @@
 ---
 layout: base
 ---
-<link rel="stylesheet" href="{{ '/assets/css/page.css' | relative_url }}">
-<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,700|Source+Sans+Pro:600" rel="stylesheet">
-
+{%- include pages_top_includes.html -%}
 
 <section class="hero is-medium lk-pages-hero" style="
 {% if page.background %}background: #{{ page.background }};{% endif %}

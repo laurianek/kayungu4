@@ -7,6 +7,9 @@
   background: $works-color;
   text-align: center;
 }
+.lk-posts-hero {
+  background: $works-color;
+}
 
 .lk-pages-header {
   position: relative;
@@ -28,7 +31,18 @@
   }
 }
 
+$p-space: 30px;
+$h-space: 8px;
+
 .lk-pages-content {
+  font-size: 21px;
+  color: rgba(0,0,0,.84);
+  letter-spacing: -.003em;
+  line-height: 1.58;
+  font-family: 'Source Serif Pro', serif;
+  word-break: break-word;
+  word-wrap: break-word;
+
   .container {
     max-width: 740px !important;
     width: 100% !important;
@@ -36,12 +50,65 @@
   }
 
   h1 {
-    @extend .title;
-    @extend .title.is-2;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 1.15;
+    letter-spacing: -.015em;
+    margin: 56px 0 0 -2.5px !important;
   }
 
   h2 {
-    @extend .title;
-    @extend .title.is-3;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    margin: 30px 0 0 -1.5px !important;
+    line-height: 1.22;
+    letter-spacing: -.012em;
+    color: rgba(0,0,0,.84);
+  }
+
+  p {
+    margin: $h-space 0 0;
+  }
+
+  ol {
+    margin-top: $h-space;
+  }
+
+  ul {
+    margin-top: $h-space;
+
+    li:before {
+      content: '\2022';
+      padding: 5px 15px 0 0;
+      font-size: 16.8px;
+      position: absolute;
+      width: 50px;
+      left: -50px;
+      text-align: right;
+    }
+  }
+
+  li {
+    margin-left: 30px;
+    margin-bottom: 14px;
+    list-style-position: outside;
+    position: relative;
+  }
+
+  blockquote {
+    margin-top: $h-space;
+    border-left: 3px solid currentcolor;
+    padding-left: 30px;
+    font-style: italic;
+  }
+
+  p, ol, ul, blockquote {
+    & + p,
+    & + ol,
+    & + ul,
+    & + blockquote {
+      margin-top: $p-space;
+    }
   }
 }
