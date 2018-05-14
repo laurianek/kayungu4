@@ -2,3 +2,12 @@
 ---
 @import "bulma";
 @import "shared";
+
+.hero.is-primary {
+  a.navbar-item:hover,
+  a.navbar-item.is-active,
+  .navbar-link:hover,
+  .navbar-link.is-active {
+    background-color: $lead-color;
+  }
+}

@@ -8,6 +8,22 @@ layout: default
 <section class="hero is-medium is-primary lk-hero" data-section="attention">
   <img class="lk-hero-image" src="assets/images/hero-img.jpg" alt="hero image: laptop and coffee. Photo by Lauren Mancke on Unsplash">
   <div class="hero-head">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="container">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item is-active" href="{{ site.baseurl }}{% link index.html %}">Home</a>
+            <a class="navbar-item" href="{{ site.baseurl }}{% link index.html %}#works">Portfolio</a>
+            <a class="navbar-item" href="{{ site.baseurl }}{% link blog.html %}">Blog</a>
+          </div>
+        </div>
+      </div>
+    </nav>
   </div>
 
   <div class="hero-body">
@@ -41,7 +57,7 @@ layout: default
   <span class="lk-triangle lk-triangle--reverse"></span>
   <div class="container">
     <!--<p>develops a favorable disposition towards the brand</p>-->
-    <h2 class="title is-1 has-text-white">Works</h2>
+    <h2 class="title is-1 has-text-white" id="works">Works</h2>
     <div class="tile is-ancestor">
       <div class="tile is-parent is-8">
 
@@ -191,7 +207,7 @@ layout: default
   </div>
 </section>
 <!--<section class="section lk-testimomials"></section>-->
-<section class="section lk-get-in-touch has-background-warning" data-section="action">
+<section class="section lk-get-in-touch has-background-warning" data-section="action" id="get-in-touch">
   <div class="container">
     <form accept-charset="UTF-8" action="https://usebasin.com/f/01cc786772b0" enctype="multipart/form-data" method="POST">
       <h2 class="title is-2 text-center">Get in touch with me</h2>
