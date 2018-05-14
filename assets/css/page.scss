@@ -16,6 +16,13 @@
 }
 .lk-posts-hero {
   background: $works-color;
+
+  a.navbar-item:hover,
+  a.navbar-item.is-active,
+  .navbar-link:hover,
+  .navbar-link.is-active {
+    color: $lead-color;
+  }
 }
 
 .lk-pages-header {
