@@ -3,31 +3,43 @@ layout: base
 ---
 {%- include pages_top_includes.html -%}
 
-<section class="hero is-medium lk-posts-hero">
-  <div class="hero-head">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="container">
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-        <div class="navbar-menu">
-          <div class="navbar-end">
-            <a class="navbar-item" href="{{ site.baseurl }}{% link index.html %}">Home</a>
-            <a class="navbar-item" href="{{ site.baseurl }}{% link index.html %}#works">Portfolio</a>
-            <a class="navbar-item" href="{{ site.baseurl }}{% link blog.html %}">Blog</a>
-            <span class="navbar-item">
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="{{ site.baseurl }}{% link index.html %}">Home</a>
+        <a class="navbar-item" href="{{ site.baseurl }}{% link index.html %}#works">Portfolio</a>
+        <a class="navbar-item" href="{{ site.baseurl }}{% link blog.html %}">Blog</a>
+        <span class="navbar-item">
               <a class="button is-warning" href="{{ site.baseurl }}{% link index.html %}#get-in-touch">
                 Work with me
               </a>
             </span>
-          </div>
-        </div>
       </div>
-    </nav>
+    </div>
   </div>
+</nav>
 
+<div class="container lk-pages-author">
+  <div class="media">
+    <figure class="media-left">
+      <p class="image is-64x64">
+        <img src="https://bulma.io/images/placeholders/128x128.png">
+      </p>
+    </figure>
+    <div class="media-content">
+      <h5>Lauriane Kayungu</h5>
+      <p>some line about what I do and etc etc plus more text etc etc and et cetera</p>
+    </div>
+  </div>
+</div>
+
+<section class="hero is-medium lk-posts-hero">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">

@@ -25,6 +25,17 @@
   }
 }
 
+.lk-pages-author {
+  .media {
+    max-width: 600px;
+    margin: 30px auto;
+  }
+  .media-left .image {
+    border-radius: 100px;
+    overflow: hidden;
+  }
+}
+
 .lk-pages-header {
   position: relative;
   padding-top: 30px;
