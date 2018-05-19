@@ -7,16 +7,26 @@ background: 28bff3
 foreground: fff
 ---
 
-#  <i class="fas fa-exclamation-triangle"></i> Page Under Construction
+#  Theory Test App
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-
-## Example of a second heading
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has **been Lorem Ipsum is** simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-the industry's standard dummy text ever since the 1500s
+Beautiful app develop for miDrive for learners to drive. I have develop whole 
+the front end for this and also made a bower ui-kit on bitbucket using similar 
+style as Bootstrap UI for the components on the app.
 
 ![Midrive learner's app]({{ site.baseurl }}{% link /assets/images/mmall.png %})
+
+## Technology used 
+
+| Front-end | Backend |
+|-----------|---------|
+| Cordova Framework | CodeIgniter & PHP5 (API) |
+| AngularJS| Express & NodeJS (API) |
+| Grunt | Jenkins continuous integration server |
+| Yeoman | Mongoose |
+| Sass |
+| Jasmine unit tests |
+| Restful API call |
+| HTML5 |
+| Twitter Bootstrap |
+| Fully functional hybrid app |
+ 

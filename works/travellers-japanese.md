@@ -8,14 +8,28 @@ background: 408eba
 foreground: fff
 ---
 
-#  <i class="fas fa-exclamation-triangle"></i> Page Under Construction
+This is the second app that I've made about learning Japanese. This app was made before 
+React Native was a tool available for mobile development, thus it was developed 
+using Cordova / Phonegap and Web technologies. 
+I used a angular on  the front end. 
+It is able to dynamically receive and store 
+new content from the server without requiring an update.
+I've made this app in collaboration with a friend of mine.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+The UX and UI is the important part, since we designed them from scratch. We 
+wanted to be able simply correlate a sentence in Japanese to English.
 
-## Example of a second heading
+## Technologies used
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has **been Lorem Ipsum is** simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-the industry's standard dummy text ever since the 1500s
+- Cordova Framework
+- AngularJS
+- Grunt
+- Yeoman
+- Sass
+- Karma test runner
+- Jasmine unit tests with SinonJS stubbing system
+- Restful API calls
+- JSONP processing
+- HTML5
+- Twitter Bootstrap
+- Release on iTunes and Google Play

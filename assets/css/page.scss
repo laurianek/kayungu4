@@ -128,11 +128,17 @@ $h-space: 8px;
     font-style: italic;
   }
 
-  p, ol, ul, blockquote {
+  table {
+    margin-top: $h-space;
+    @extend .table;
+  }
+
+  p, ol, ul, blockquote, table {
     & + p,
     & + ol,
     & + ul,
-    & + blockquote {
+    & + blockquote,
+    & + table {
       margin-top: $p-space;
     }
   }
