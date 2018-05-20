@@ -7,37 +7,29 @@ background: 568cd8
 foreground: fff
 ---
 
-# You Can Also Use Writing To Grow Your Business
+Short one page site for Constant Commerce startup. The site needed to be fully
+responsive notably the hero of the site. The image could be responsive but the
+text on the image needed to still be readable on smaller devices and not to
+feel pixelated. I’ve developed a responsive font library which allows the
+scaling of text between break points making the hero readable whichever
+platform you were on.
 
-You may have guessed that by taking the time to craft an article on Medium 
-instead of doing billable work, there must also be value in using content that 
-you publish. Well, you guessed right. Writing can be a powerful sales tool.
+## <small><i class="fas fa-server"></i></small> Technologies Used
 
+| Front-end | Backend |
+|-----------|---------|
+||
 
-## You Can Build Value and Authority By Teaching
-
-The more a client believes that you can provide value, then the more likely they 
-are to pay you to provide value for them. One of the ways to do that is by teaching 
-people. By teaching people, you are providing value to them for free, which builds 
-up trust and demonstrates that you have expertise and authority on a subject.
-
-The more a client believes that you can provide value, then the more likely they 
-are to pay you to provide value for them. One of the ways to do that is by teaching 
-people. **By teaching people**, you are providing value to them for free, which builds 
-up trust and demonstrates that you have expertise and authority on a subject.
-
-- 1 bullet
-- 2 bullets and more text
-- dummies
-- my baba needs a dummy
-
-for them. One of the ways to do that is by teaching 
-people. By teaching people, you are providing value 
-
-1. didojwioqjdiwoqd
-2. okewokfpeopw
-3. iojioiokio
-
-and finally
-
-> blockquotes just like this one, let's make sure it wraps around so let's keep writting a little bit more
+"JQuery",
+          "AngularJS",
+          "Sass",
+          "Jasmine unit tests with SinonJS stubbing system",
+          "HTML5",
+          "Twitter Bootstrap",
+          "IE9+ support"
+          
+"Symphony2 & PHP5",
+          "Gherkin BDD tests",
+          "PHPUnit tests",
+          "Model View Control framework",
+          "MySQL database"

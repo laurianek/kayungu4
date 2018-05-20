@@ -131,6 +131,7 @@ $h-space: 8px;
   table {
     margin-top: $h-space;
     @extend .table;
+    @extend .table.is-fullwidth;
   }
 
   p, ol, ul, blockquote, table {

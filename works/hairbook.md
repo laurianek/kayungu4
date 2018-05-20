@@ -8,14 +8,30 @@ background: ea447b
 foreground: fff
 ---
 
-#  <i class="fas fa-exclamation-triangle"></i> Page Under Construction
+Developed both the frontend and the backend for project, the hair & beauty app 
+'hairbook'. It is live with over 8000 downloads without any marketing. Used 
+Cordova hybrid mobile app framework with ReactJS on the client side, and NodeJS 
++ ExpressJS on the server side. I have plans to convert this app to a full React 
+Native app in the future. It has the ability to push hotfixes for bugs and to 
+sync user data from the backend. 
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+## Tech Used
 
-## Example of a second heading
+| Front-end | Backend |
+|-----------|---------|
+||
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has **been Lorem Ipsum is** simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-the industry's standard dummy text ever since the 1500s
+"ReactJS",
+          "Redux",
+          "RxJs",
+          "Cordova Framework",
+          "Gulp",
+          "Sass",
+          "Jest test framework",
+          "Restful API call",
+          "HTML5",
+          "Fully functional hybrid app"
+          
+"NodeJS",
+          "Express",
+          "Postgres"

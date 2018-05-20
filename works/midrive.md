@@ -6,6 +6,25 @@ posterAlt: 'todo'
 background: 28bff3
 foreground: fff
 ---
+# miDrive Concierge - A Pivot Market Research Site
+
+This micro-site was a quick brief offers site to unable miDrive to give offer 
+to their customers. Even though the site was constructed in less than a week, 
+it still needed to be fully responsive as a 50% of their visitors were on mobile
+devices. I was the sole front-end worker for this site.
+
+## Stack Used
+
+| AngularJS |
+| Grunt |
+| Yeoman |
+| Sass |
+| Restful API call |
+| HTML5 |
+| Twitter Bootstrap |
+| Analytics tracking (Google Analytics, Mixpanel, etc) |
+| Static site |
+
 
 #  Theory Test App
 
@@ -29,4 +48,5 @@ style as Bootstrap UI for the components on the app.
 | HTML5 |
 | Twitter Bootstrap |
 | Fully functional hybrid app |
+
  

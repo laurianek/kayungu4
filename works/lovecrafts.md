@@ -7,14 +7,32 @@ background: feb6cd
 foreground: fff
 ---
 
-# <i class="fas fa-exclamation-triangle"></i> Page Under Construction
+Worked on a team with this innovative startup aiming to bridge the gap between 
+art & crafts social media and where they shop for supplies. I worked on both 
+the social media and e-commerce part of the site. The social media aspect uses 
+Symfony2 and backbone.js. The ecommerce uses Magento e-commerce platform.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+I helped migrate the ecommerce platform of the latest stable version. Worked 
+with kanban agile methodology, implementing user stories. Shown flexibility 
+taking up different responsibilities, like helping with backend work, quality 
+assurance, and writing automated tests. Helped with the planning process and 
+priority of tickets.
 
-## Example of a second heading
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has **been Lorem Ipsum is** simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-the industry's standard dummy text ever since the 1500s
+## Tech Used
+
+| Front-end | Backend |
+|-----------|---------|
+||
+
+"BackboneJS",
+          "Prototype",
+          "In-house module loader solution",
+          "JQuery",
+          "Sass",
+          "HTML5",
+          "Subset of Modernize",
+          "IE8+ support"
+"Magento e-commerce",
+          "Symfony2",
+          "Aws"

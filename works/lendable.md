@@ -7,14 +7,18 @@ background: 748f7f
 foreground: fff
 ---
 
-#  <i class="fas fa-exclamation-triangle"></i> Page Under Construction
+Disrupting fintech startup in the peer-to-peer loan industry. Worked on changing
+the build environment from a Symfony3 / Assetic bundling stack to a full
+standalone frontend using NPM and Gulp task runner. Used D3 library for making
+visual financial report for the Lendable peer-to-peer investors. Fully
+responsible for the frontend engineering design stack
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+## <small><i class="fas fa-server"></i></small> Tech Used
 
-## Example of a second heading
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has **been Lorem Ipsum is** simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-the industry's standard dummy text ever since the 1500s
+|Angular2 |
+| D3 |
+| Sass |
+| Jest unit tests |
+| Restful API call |
+| HTML5 |
+| Twitter Bootstrap |
