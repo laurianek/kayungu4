@@ -19,10 +19,10 @@ See the [git repository](https://github.com/laurianek/xmas-challenge)
 | Front-end | Backend |
 |-----------|---------|
 | AngularJS | Express & NodeJS |
-| Twitter Bootstrap | WebSocket I/O |
-| ES6 | 
-| Less | 
-| Gulp | 
+| Twitter Bootstrap   | WebSocket I/O |
+| ES6       |         |
+| Less      |         |
+| Gulp      |         |
 | Karma with Jasmine tests | 
-| HTML5 | 
+| HTML5     |         |
 

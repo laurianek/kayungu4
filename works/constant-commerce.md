@@ -18,12 +18,12 @@ platform you were on.
 
 | Front-end | Backend |
 |-----------|---------|
-| JQuery | Symphony2 & PHP5|
+| JQuery    | Symphony2 & PHP5   |
 | AngularJS |  Gherkin BDD tests |
-| Sass |  PHPUnit tests |
+| Sass      |  PHPUnit tests     |
 | Jasmine unit tests with SinonJS stubbing system |  Model View Control framework |
-| HTML5 |  MySQL database |
-| Twitter Bootstrap | 
-| IE9+ support | 
+| HTML5     |  MySQL database    |
+| Twitter Bootstrap   | 
+| IE9+ support        | 
           
 

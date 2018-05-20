@@ -21,12 +21,12 @@ sync user data from the backend.
 |-----------|---------|
 | ReactJS   | NodeJS  |
 | Redux     | Express |
-| RxJs      | Postgres |
-| Cordova Framework | 
-| Gulp      | 
-| Sass      | 
+| RxJs      | Postgres|
+| Cordova Framework   | 
+| Gulp      |         |
+| Sass      |         |
 | Jest test framework | 
-| Restful API call | 
-| HTML5     | 
+| Restful API call    | 
+| HTML5     |         |
 | Fully functional hybrid app | 
           

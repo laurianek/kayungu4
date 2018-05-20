@@ -19,20 +19,16 @@ assurance, and writing automated tests. Helped with the planning process and
 priority of tickets.
 
 
-## Tech Used
+## <small><i class="fas fa-server"></i></small> Tech Used
 
 | Front-end | Backend |
 |-----------|---------|
-||
-
-"BackboneJS",
-          "Prototype",
-          "In-house module loader solution",
-          "JQuery",
-          "Sass",
-          "HTML5",
-          "Subset of Modernize",
-          "IE8+ support"
-"Magento e-commerce",
-          "Symfony2",
-          "Aws"
+| BackboneJS|  Magento e-commerce |
+| Prototype | Symfony2 |
+| In-house module loader solution | Aws |
+| JQuery    |         |
+| Sass      |         |
+| HTML5     |         |
+| Subset of Modernize |
+| IE8+ support        |
+ 

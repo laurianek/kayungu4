@@ -15,10 +15,10 @@ responsible for the frontend engineering design stack
 
 ## <small><i class="fas fa-server"></i></small> Tech Used
 
-|Angular2 |
-| D3 |
-| Sass |
-| Jest unit tests |
-| Restful API call |
-| HTML5 |
+| Angular2          |
+| D3                |
+| Sass              |
+| Jest unit tests   |
+| Restful API call  |
+| HTML5             |
 | Twitter Bootstrap |

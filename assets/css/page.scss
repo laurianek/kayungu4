@@ -131,7 +131,7 @@ $h-space: 8px;
   table {
     margin-top: $h-space;
     @extend .table;
-    @extend .table.is-fullwidth;
+    @extend .table, .is-fullwidth;
   }
 
   p, ol, ul, blockquote, table {
@@ -141,6 +141,39 @@ $h-space: 8px;
     & + blockquote,
     & + table {
       margin-top: $p-space;
+    }
+  }
+}
+.lk-pages-next-work {
+  margin-top: $p-space * 2;
+  align-items: center;
+  justify-content: flex-end;
+
+  .lk-image-container {
+    margin-right: 0 !important;
+    border-radius: 6px;
+    border-color: $black;
+  }
+
+  .overlay {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: $black;
+    background: linear-gradient(-45deg, rgba(255, 255, 255, 0.98) 30%, rgba(255, 255, 255, 0) 98%);
+
+    h1 {
+      margin: 0 !important;
+      padding: 5px 10px;
+    }
+
+    small {
+      font-size: 0.5em;
+    }
+
+    .fa-long-arrow-alt-right {
+      top: 1px;
+      position: relative;
     }
   }
 }

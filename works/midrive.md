@@ -13,17 +13,17 @@ to their customers. Even though the site was constructed in less than a week,
 it still needed to be fully responsive as a 50% of their visitors were on mobile
 devices. I was the sole front-end worker for this site.
 
-## Stack Used
+## <small><i class="fas fa-server"></i></small> Stack Used
 
-| AngularJS |
-| Grunt |
-| Yeoman |
-| Sass |
-| Restful API call |
-| HTML5 |
+| AngularJS         |
+| Grunt             |
+| Yeoman            |
+| Sass              |
+| Restful API call  |
+| HTML5             |
 | Twitter Bootstrap |
 | Analytics tracking (Google Analytics, Mixpanel, etc) |
-| Static site |
+| Static site       |
 
 
 #  Theory Test App
@@ -34,7 +34,7 @@ style as Bootstrap UI for the components on the app.
 
 ![Midrive learner's app]({{ site.baseurl }}{% link /assets/images/mmall.png %})
 
-## Technology used 
+## <small><i class="fas fa-server"></i></small> Tech Used
 
 | Front-end | Backend |
 |-----------|---------|
