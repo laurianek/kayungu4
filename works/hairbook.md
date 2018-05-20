@@ -15,23 +15,18 @@ Cordova hybrid mobile app framework with ReactJS on the client side, and NodeJS
 Native app in the future. It has the ability to push hotfixes for bugs and to 
 sync user data from the backend. 
 
-## Tech Used
+## <small><i class="fas fa-server"></i></small> Tech Used
 
 | Front-end | Backend |
 |-----------|---------|
-||
-
-"ReactJS",
-          "Redux",
-          "RxJs",
-          "Cordova Framework",
-          "Gulp",
-          "Sass",
-          "Jest test framework",
-          "Restful API call",
-          "HTML5",
-          "Fully functional hybrid app"
+| ReactJS   | NodeJS  |
+| Redux     | Express |
+| RxJs      | Postgres |
+| Cordova Framework | 
+| Gulp      | 
+| Sass      | 
+| Jest test framework | 
+| Restful API call | 
+| HTML5     | 
+| Fully functional hybrid app | 
           
-"NodeJS",
-          "Express",
-          "Postgres"

@@ -14,22 +14,16 @@ feel pixelated. I’ve developed a responsive font library which allows the
 scaling of text between break points making the hero readable whichever
 platform you were on.
 
-## <small><i class="fas fa-server"></i></small> Technologies Used
+## <small><i class="fas fa-server"></i></small> Tech Used
 
 | Front-end | Backend |
 |-----------|---------|
-||
-
-"JQuery",
-          "AngularJS",
-          "Sass",
-          "Jasmine unit tests with SinonJS stubbing system",
-          "HTML5",
-          "Twitter Bootstrap",
-          "IE9+ support"
+| JQuery | Symphony2 & PHP5|
+| AngularJS |  Gherkin BDD tests |
+| Sass |  PHPUnit tests |
+| Jasmine unit tests with SinonJS stubbing system |  Model View Control framework |
+| HTML5 |  MySQL database |
+| Twitter Bootstrap | 
+| IE9+ support | 
           
-"Symphony2 & PHP5",
-          "Gherkin BDD tests",
-          "PHPUnit tests",
-          "Model View Control framework",
-          "MySQL database"
+

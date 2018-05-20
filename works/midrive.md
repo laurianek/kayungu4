@@ -38,15 +38,15 @@ style as Bootstrap UI for the components on the app.
 
 | Front-end | Backend |
 |-----------|---------|
-| Cordova Framework | CodeIgniter & PHP5 (API) |
-| AngularJS| Express & NodeJS (API) |
-| Grunt | Jenkins continuous integration server |
-| Yeoman | Mongoose |
-| Sass |
-| Jasmine unit tests |
-| Restful API call |
-| HTML5 |
-| Twitter Bootstrap |
+| Cordova Framework   | CodeIgniter & PHP5 (API) |
+| AngularJS | Express & NodeJS (API) |
+| Grunt     | Jenkins continuous integration server |
+| Yeoman    | Mongoose|
+| Sass      |         |
+| Jasmine unit tests  |
+| Restful API call    |
+| HTML5     |         |
+| Twitter Bootstrap   |
 | Fully functional hybrid app |
 
  

@@ -16,13 +16,13 @@
 title: Lauriane Kayugu-N - Portfolio
 email: lauriane.kayungu@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hello! I help businesses and startups produce
+  intuitive digital user experiences to connect with
+  their users.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://lauriane.kayungu.me.uk" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: kida_1818
+github_username:  laurianek
 
 # Build settings
 markdown: kramdown
