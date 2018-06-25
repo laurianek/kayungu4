@@ -50,3 +50,14 @@ style as Bootstrap UI for the components on the app.
 | Fully functional hybrid app |
 
  
+<div class="is-flex lk-pages-next-work">
+  <a class="lk-image-container" role="link" href="{{ site.baseurl }}{% link works/hairbook.md %}">           
+    <img src="/assets/images/hb2.png" alt="sample image from my personal work">
+    <div class="overlay">
+      <h1>
+        <small>Next work <i class="fas fa-long-arrow-alt-right"></i></small><br/>
+        hairbook
+      </h1>
+    <div>
+    
+</div>

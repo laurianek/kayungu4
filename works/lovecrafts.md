@@ -1,7 +1,7 @@
 ---
 layout: page
 title: loveknitting & lovecrochet
-poster: '/assets/images/lovecrafts.png'
+poster: '/assets/images/lovecrafts3.png'
 posterAlt: 'todo'
 background: feb6cd
 foreground: fff
@@ -31,4 +31,16 @@ priority of tickets.
 | HTML5     |         |
 | Subset of Modernize |
 | IE8+ support        |
- 
+
+
+<div class="is-flex lk-pages-next-work">
+  <a class="lk-image-container" role="link" href="{{ site.baseurl }}{% link works/midrive.md %}">           
+    <img src="/assets/images/mi2.png" alt="sample image from my workat miDrive">
+    <div class="overlay">
+      <h1>
+        <small>Next work <i class="fas fa-long-arrow-alt-right"></i></small><br/>
+        miDrive
+      </h1>
+    <div>
+    
+</div>

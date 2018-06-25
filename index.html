@@ -209,6 +209,8 @@ layout: default
 <!--<section class="section lk-testimomials"></section>-->
 <section class="section lk-get-in-touch has-background-warning" data-section="action" id="get-in-touch">
   <div class="container">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://usebasin.com/f/01cc786772b0/ahoy.js" async defer></script>
     <form accept-charset="UTF-8" action="https://usebasin.com/f/01cc786772b0" enctype="multipart/form-data" method="POST">
       <h2 class="title is-2 text-center">Get in touch with me</h2>
       <p class="subtitle is-5 text-center">
@@ -231,12 +233,14 @@ layout: default
             </div>
           </div>
 
-          <div class="field">
+          <div class="field" style="margin-bottom: 20px">
             <label for="company" class="label">Company</label>
             <div class="control">
               <input type="text" class="input" id="company" name="company" placeholder="e.g. Company Inc" required>
             </div>
           </div>
+
+          <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
         </div>
 
         <div class="column">
