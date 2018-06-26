@@ -2,28 +2,7 @@
 layout: base
 ---
 {%- include pages_top_includes.html -%}
-
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="container">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-    <div class="navbar-menu">
-      <div class="navbar-end">
-        <a class="navbar-item" href="{{ site.baseurl }}{% link index.html %}">Home</a>
-        <a class="navbar-item" href="{{ site.baseurl }}{% link index.html %}#works">Portfolio</a>
-        <a class="navbar-item" href="{{ site.baseurl }}{% link blog.html %}">Blog</a>
-        <span class="navbar-item">
-              <a class="button is-warning" href="{{ site.baseurl }}{% link index.html %}#get-in-touch">
-                Work with me
-              </a>
-            </span>
-      </div>
-    </div>
-  </div>
-</nav>
+{% include main_navigation.html %}
 
 <div class="container lk-pages-author">
   <div class="media">
