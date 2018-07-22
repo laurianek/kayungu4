@@ -41,8 +41,12 @@ main {
   top: -40px;
   opacity: 0.8;
   min-width: 1100px;
+  width: 100%;
   left: 50%;
   transform: translate(-50%, 0);
+  &.llazy-img..llazy-img--show {
+    opacity: 0.8;
+  }
 }
 .lk-hero-image-overlay {
   position: absolute;
@@ -221,4 +225,21 @@ main {
   right: 0;
   background: rgba(0,0,0, 0.48);
   color: #fff;
+}
+
+// LAZY IMAGE --------------
+.llazy-img {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+
+  &.llazy-img--show {
+    opacity: 1;
+  }
+}
+.llazy-img--low-res {
+  filter: blur(10px);
+  transition: opacity 1s ease-out;
+  &.llazy-img--show {
+    opacity: 0;
+  }
 }
