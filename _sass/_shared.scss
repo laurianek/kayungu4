@@ -44,7 +44,7 @@ main {
   width: 100%;
   left: 50%;
   transform: translate(-50%, 0);
-  &.llazy-img..llazy-img--show {
+  &.llazy-img.llazy-img--show {
     opacity: 0.8;
   }
 }
