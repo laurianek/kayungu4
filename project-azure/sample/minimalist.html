@@ -1,0 +1,42 @@
+---
+layout: base-no-footer
+agent: sample
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/email-sample.css' | relative_url }}">
+
+{% assign agent = site.data.agents[page.agent] %}
+
+<section class="section">
+  <div class="container max-width-email">
+
+    {% for property in site.data.properties-en.properties %}
+    <div class="pa__property">
+      <a href="#">
+        <figure class="image is-16by9">
+          <img src="{{ property.image | absolute }}" alt="{{property.alt}}">
+        </figure>
+      </a>
+      <a class="pa__title has-text-link is-clearfix has-text-right" href="#">
+        <span class="has-text-left" style="float: left">{{property.title}}</span>
+        <span class="pa__title__price">{{property.price}}</span>
+      </a>
+      <p class="pa__p has-text-black">
+        {{property.description}}
+      </p>
+      <a class="pa__subtitle has-text-grey" href="#">{{agent.email}}</a>
+      <hr/>
+    </div>
+    {% endfor %}
+
+  </div>
+</section>
+<footer class="footer has-background-black">
+  <div class="content has-text-centered">
+    <p>Christina Hagent</p>
+    <p>Awesome Estate Agent Co.</p>
+    <p>District, regular street 45 br</p>
+    <p></p>
+  </div>
+</footer>

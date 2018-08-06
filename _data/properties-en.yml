@@ -1,0 +1,31 @@
+
+properties:
+  - image: '/assets/project-azure/images/image1.jpg'
+    alt: 'Photo by David Jakab from Pexels'
+    title: '2 bed flat to rent in London SW1P'
+    price: '1,200€ / month'
+    description: 'Completely refurbished this light spacious apartment is perfectly situated for the amenities of Victoria Street. Finished and furnished to a high standard with good storage.'
+
+  - image: '/assets/project-azure/images/image2.jpg'
+    alt: ''
+    title: '2 bed house for sale in Charlwood CW9'
+    price: '695,000€'
+    description: 'A beautifully presented contemporary two bedroom house with its own balcony overlooking Charlwood. The property has been refurbished throughout with great attention to detail, specification and layout. There are two double bedrooms...'
+
+  - image: '/assets/project-azure/images/image3.jpg'
+    alt: 'Photo by Mikes Photos from Pexels'
+    title: '3 bed house for sale in Warwick WR4'
+    price: '800,000€'
+    description: 'Entered into via an attractive, gated patio garden the property comprises a modern and bright reception room facing out over the patio garden. The reception room has contemporary wooden flooring throughout and a modern open-plan kitchen neatly positioned along one side...'
+
+  - image: '/assets/project-azure/images/image4.jpg'
+    alt: ''
+    title: '2 bed flat to rent in Westminster SW1E'
+    price: '1,650€ / month'
+    description: 'Luxury new development in the heart of the historical Westminster and modern Victoria. This vibrant neighbourhood has all the capital has to offer, finest restaurants, elegant theatres and some of the best transport links.'
+
+  - image: '/assets/project-azure/images/image5.jpg'
+    alt: ''
+    title: 'Studio to rent in Udall Street QS1X'
+    price: '750€ / month'
+    description: 'Long let. This stylish studio apartment is set on the lower ground floor of a brilliant period building in Westminster. The apartment boasts a separate kitchen and its own bathroom.'
