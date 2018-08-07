@@ -11,74 +11,24 @@ agent: sample
 <section class="section">
   <div class="container max-width-email">
 
-    <!-- 2 Even Columns : BEGIN -->
-
-    <table align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:660px;">
-      <tr>
-        <td align="center" valign="top" style="font-size:0; padding: 10px 0;">
-          <div style="display:inline-block; margin: 0 -2px; width:100%; min-width:200px; max-width:330px; vertical-align:top;" class="stack-column">
-            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-              <tr>
-                <td style="padding: 10px 10px;">
-                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
-                    <tr>
-                      <td>
-                        <img src="http://placehold.it/310" width="310" height="" border="0" alt="alt_text" class="center-on-narrow" style="width: 100%; max-width: 310px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-                      </td>
-                    </tr>
-                    <tr>
-                      <td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
-                        <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <div style="display:inline-block; margin: 0 -2px; width:100%; min-width:200px; max-width:330px; vertical-align:top;" class="stack-column">
-            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-              <tr>
-                <td style="padding: 10px 10px;">
-                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
-                    <tr>
-                      <td>
-                        <img src="http://placehold.it/310" width="310" height="" border="0" alt="alt_text" class="center-on-narrow" style="width: 100%; max-width: 310px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-                      </td>
-                    </tr>
-                    <tr>
-                      <td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
-                        <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </td>
-      </tr>
-    </table>
-
-    <!-- 2 Even Columns : END -->
-
-    <div class="pa__properties style-1 columns">
+    <div class="pa__properties style-natural columns">
       {% for property in site.data.properties-en.properties %}
       <div class="pa__property column is-half">
-        <a href="#">
-          <figure class="image is-16by9">
-            <img src="{{ property.image | absolute }}" alt="{{property.alt}}">
-          </figure>
-        </a>
-        <a class="pa__title has-text-link is-clearfix has-text-right" href="#">
-          <span class="has-text-left" style="float: left">{{property.title}}</span>
-          <span class="pa__title__price">{{property.price}}</span>
-        </a>
-        <p class="pa__p has-text-black">
-          {{property.description}}
-        </p>
-        <a class="pa__subtitle has-text-grey" href="#">{{agent.email}}</a>
-        <hr/>
+        <div class="pa__property-inner">
+          <a href="#">
+            <figure class="image is-3by2">
+              <img src="{{ property.image | absolute }}" alt="{{property.alt}}">
+            </figure>
+          </a>
+          <a class="pa__title is-clearfix has-text-right" href="#">
+            <span class="has-text-left" style="float: left">{{property.title}}</span>
+            <!--<span class="pa__title__price">{{property.price}}</span>-->
+          </a>
+          <p class="pa__p has-text-black-bis">
+            {{property.description | truncate: 110}}
+          </p>
+          <a class="pa__subtitle has-text-grey" href="#">{{agent.email}}</a>
+        </div>
       </div>
       {% endfor %}
     </div>

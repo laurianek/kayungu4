@@ -1,26 +1,61 @@
 ---
 ---
 
+$title: #1177bc;
 .max-width-email {
   max-width: 660px !important;
   margin-left: auto;
   margin-right: auto;
 }
 
+.pa__properties {
+  &.style-natural {
+    flex-wrap: wrap;
+  }
+}
+
+.pa__property-inner {
+  border: 1px solid #e1e1e1;
+  height: 100%;
+}
+
 .pa__title {
   margin: 24px 0 20px;
   font-size: 21px;
   display: block;
+  color: #1177bc;
+
+  &:hover {
+    color: darken($title, 10%);
+  }
+  .style-natural & {
+    padding: 0 12px;
+  }
 }
+
 .pa__title__price {
   white-space: nowrap;
   margin-left: 10px;
 }
+
 .pa__subtitle {
-  margin: 22px 0;
+  margin: 20px 0;
   display: block;
+  font-size: 90%;
+
+  .style-minimalist & {
+    margin: 22px 0;
+  }
+  .style-natural & {
+    padding: 0 12px;
+  }
 }
+
 .pa__p {
   margin: 10px 0;
   display: block;
+
+  .style-natural & {
+    padding: 0 12px;
+  }
 }
