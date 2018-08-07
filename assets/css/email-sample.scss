@@ -2,6 +2,8 @@
 ---
 
 $title: #1177bc;
+$harmony-title-padding: 10px;
+
 .max-width-email {
   max-width: 660px !important;
   margin-left: auto;
@@ -9,7 +11,8 @@ $title: #1177bc;
 }
 
 .pa__properties {
-  &.style-natural {
+  &.style-natural,
+  &.style-harmony {
     flex-wrap: wrap;
   }
 }
@@ -21,15 +24,22 @@ $title: #1177bc;
 
 .pa__title {
   margin: 24px 0 20px;
-  font-size: 21px;
+  font-size: 18px;
   display: block;
-  color: #1177bc;
+  color: $title;
 
   &:hover {
     color: darken($title, 10%);
   }
-  .style-natural & {
+  .style-natural &,
+  .style-harmony & {
     padding: 0 12px;
+  }
+  .style-natural & {
+    font-size: 21px;
+  }
+  .style-harmony & {
+    margin-top: $harmony-title-padding;
   }
 }
 
@@ -46,8 +56,13 @@ $title: #1177bc;
   .style-minimalist & {
     margin: 22px 0;
   }
-  .style-natural & {
+  .style-natural &,
+  .style-harmony & {
     padding: 0 12px;
+  }
+  .style-harmony & {
+    margin-bottom: $harmony-title-padding;
+    font-size: 85%;
   }
 }
 
@@ -55,7 +70,26 @@ $title: #1177bc;
   margin: 10px 0;
   display: block;
 
-  .style-natural & {
+  .style-natural &,
+  .style-harmony & {
     padding: 0 12px;
+  }
+}
+
+.pa__p-button {
+  margin: 20px 0;
+}
+
+.button {
+  .style-harmony & {
+    border-color: $title;
+    border-radius: 0;
+    color: $title;
+    font-size: 90%;
+
+    &:hover {
+      background: $title;
+      color: #fff;
+    }
   }
 }
