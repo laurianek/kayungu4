@@ -88,7 +88,8 @@ $harmony-title-padding: 10px;
 }
 
 .button {
-  .style-harmony & {
+  .style-harmony &,
+  .style-elegant & {
     border-color: $title;
     border-radius: 0;
     color: $title;
@@ -107,5 +108,20 @@ $harmony-title-padding: 10px;
   top: -20px;
   background: #fff;
   width: calc(100% - 20px);
-  margin: 0 auto 30px;
+  margin: 0 auto 40px;
+}
+
+.pa__short-hr {
+  display: block;
+  text-align: center;
+  line-height: 0;
+  margin: 20px 0;
+
+  &:before {
+    content: '';
+    height: 1px;
+    width: 70px;
+    background: #b3b7bd;
+    display: inline-block;
+  }
 }

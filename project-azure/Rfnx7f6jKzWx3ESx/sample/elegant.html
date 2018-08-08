@@ -20,14 +20,18 @@ agent: sample
               <img src="{{ property.image | absolute }}" alt="{{property.alt}}">
             </figure>
           </a>
-          <a class="pa__title is-clearfix has-text-right" href="#">
-            <span class="has-text-left" style="float: left">{{property.title}}</span>
-            <!--<span class="pa__title__price">{{property.price}}</span>-->
+          <a class="pa__subtitle has-text-grey-dark has-text-centered" href="#">{{agent.email}}</a>
+          <a class="pa__title is-clearfix has-text-centered" href="#">
+            {{property.title}}
           </a>
-          <p class="pa__p has-text-grey-dark">
+          <p class="pa__p has-text-grey-dark has-text-centered">
             {{property.description | truncate: 105}}
           </p>
-          <a class="pa__subtitle has-text-grey" href="#">{{agent.email}}</a>
+          <p class="pa__p pa__p-button has-text-centered">
+            <button class="button is-outlined is-uppercase">
+              View more
+            </button>
+          </p>
         </div>
       </div>
       {% endfor %}

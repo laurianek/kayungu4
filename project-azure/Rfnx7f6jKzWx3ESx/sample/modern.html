@@ -21,13 +21,15 @@ agent: sample
             </figure>
           </a>
           <div class="pa__description">
-            <a class="pa__title is-clearfix has-text-right is-uppercase" href="#">
-              <span class="has-text-left" style="float: left">{{property.title}}</span>
-              <!--<span class="pa__title__price">{{property.price}}</span>-->
+            <a class="pa__title is-clearfix has-text-centered is-uppercase" href="#">
+              {{property.title}}
             </a>
-            <a class="pa__subtitle has-text-grey-dark is-uppercase" href="#">{{agent.email}}</a>
+            <a class="pa__subtitle has-text-grey-dark has-text-centered is-uppercase" href="#">
+              {{agent.email}}
+            </a>
+            <div class="pa__short-hr"></div>
 
-            <p class="pa__p has-text-grey-dark">
+            <p class="pa__p has-text-grey-dark has-text-centered">
               {{property.description | truncate: 105}}
             </p>
           </div>
