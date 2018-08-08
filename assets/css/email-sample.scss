@@ -15,6 +15,7 @@ $elegant-title-padding: 12px;
   &.style-natural,
   &.style-harmony,
   &.style-elegant,
+  &.style-sapphire,
   &.style-modern {
     flex-wrap: wrap;
   }
@@ -25,6 +26,10 @@ $elegant-title-padding: 12px;
   height: 100%;
   .style-modern & {
     border: none;
+  }
+  .style-sapphire & {
+    border: none;
+    border-top: 5px solid $title;
   }
 }
 
@@ -40,6 +45,7 @@ $elegant-title-padding: 12px;
   .style-natural &,
   .style-modern &,
   .style-elegant &,
+  .style-sapphire &,
   .style-harmony & {
     padding: 0 12px;
   }
@@ -69,6 +75,7 @@ $elegant-title-padding: 12px;
   }
   .style-natural &,
   .style-modern &,
+  .style-sapphire &,
   .style-elegant &,
   .style-harmony & {
     padding: 0 12px;
@@ -80,6 +87,9 @@ $elegant-title-padding: 12px;
   .style-elegant & {
     margin: -1.25em 0 $elegant-title-padding;
     position: relative;
+  }
+  .style-sapphire & {
+    margin-top: 0;
   }
 }
 
@@ -101,6 +111,7 @@ $elegant-title-padding: 12px;
 
   .style-natural &,
   .style-modern &,
+  .style-sapphire &,
   .style-elegant &,
   .style-harmony & {
     padding: 0 12px;
@@ -147,6 +158,43 @@ $elegant-title-padding: 12px;
     width: 70px;
     background: #b3b7bd;
     display: inline-block;
+  }
+
+  .style-sapphire & {
+    margin-bottom: 12px;
+
+    &:before {
+      height: 4px;
+      width: 50px;
+    }
+  }
+}
+
+.style-sapphire {
+  &.columns {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .column {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  @media screen and (max-width: 549px) {
+    .column--image {
+      padding-bottom: 0;
+    }
+    .column--desc {
+      padding-top: 0;
+    }
+    .pa__property-inner {
+      display: block;
+      width: 90%;
+      margin: -1rem auto 0;
+      position: relative;
+      background: white;
+      border-color: white;
+    }
   }
 }
 
