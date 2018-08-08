@@ -11,7 +11,7 @@ agent: sample
 <section class="section">
   <div class="container max-width-email">
 
-    <div class="pa__properties style-harmony columns">
+    <div class="pa__properties style-modern columns">
       {% for property in site.data.properties-en.properties %}
       <div class="pa__property column is-half">
         <div class="pa__property-inner">
@@ -20,19 +20,17 @@ agent: sample
               <img src="{{ property.image | absolute }}" alt="{{property.alt}}">
             </figure>
           </a>
-          <a class="pa__subtitle is-uppercase has-text-grey-dark" href="#">{{agent.email}}</a>
-          <a class="pa__title is-clearfix has-text-right is is-uppercase" href="#">
-            <span class="has-text-left" style="float: left">{{property.title}}</span>
-            <!--<span class="pa__title__price">{{property.price}}</span>-->
-          </a>
-          <p class="pa__p has-text-grey-dark">
-            {{property.description | truncate: 105}}
-          </p>
-          <p class="pa__p pa__p-button">
-            <button class="button is-outlined is-uppercase">
-              View more
-            </button>
-          </p>
+          <div class="pa__description">
+            <a class="pa__title is-clearfix has-text-right is-uppercase" href="#">
+              <span class="has-text-left" style="float: left">{{property.title}}</span>
+              <!--<span class="pa__title__price">{{property.price}}</span>-->
+            </a>
+            <a class="pa__subtitle has-text-grey-dark is-uppercase" href="#">{{agent.email}}</a>
+
+            <p class="pa__p has-text-grey-dark">
+              {{property.description | truncate: 105}}
+            </p>
+          </div>
         </div>
       </div>
       {% endfor %}

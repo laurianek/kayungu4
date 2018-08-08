@@ -16,7 +16,7 @@ agent: sample
       <div class="pa__property column is-half">
         <div class="pa__property-inner">
           <a href="#">
-            <figure class="image is-3by2">
+            <figure class="image is-5by3">
               <img src="{{ property.image | absolute }}" alt="{{property.alt}}">
             </figure>
           </a>
@@ -25,7 +25,7 @@ agent: sample
             <!--<span class="pa__title__price">{{property.price}}</span>-->
           </a>
           <p class="pa__p has-text-black-bis">
-            {{property.description | truncate: 110}}
+            {{property.description | truncate: 105}}
           </p>
           <a class="pa__subtitle has-text-grey" href="#">{{agent.email}}</a>
         </div>

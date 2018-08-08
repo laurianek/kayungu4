@@ -12,7 +12,8 @@ $harmony-title-padding: 10px;
 
 .pa__properties {
   &.style-natural,
-  &.style-harmony {
+  &.style-harmony,
+  &.style-modern {
     flex-wrap: wrap;
   }
 }
@@ -20,6 +21,9 @@ $harmony-title-padding: 10px;
 .pa__property-inner {
   border: 1px solid #e1e1e1;
   height: 100%;
+  .style-modern & {
+    border: none;
+  }
 }
 
 .pa__title {
@@ -32,6 +36,7 @@ $harmony-title-padding: 10px;
     color: darken($title, 10%);
   }
   .style-natural &,
+  .style-modern &,
   .style-harmony & {
     padding: 0 12px;
   }
@@ -57,6 +62,7 @@ $harmony-title-padding: 10px;
     margin: 22px 0;
   }
   .style-natural &,
+  .style-modern &,
   .style-harmony & {
     padding: 0 12px;
   }
@@ -71,6 +77,7 @@ $harmony-title-padding: 10px;
   display: block;
 
   .style-natural &,
+  .style-modern &,
   .style-harmony & {
     padding: 0 12px;
   }
@@ -92,4 +99,13 @@ $harmony-title-padding: 10px;
       color: #fff;
     }
   }
+}
+
+.pa__description {
+  padding: 1px;
+  position: relative;
+  top: -20px;
+  background: #fff;
+  width: calc(100% - 20px);
+  margin: 0 auto 30px;
 }
