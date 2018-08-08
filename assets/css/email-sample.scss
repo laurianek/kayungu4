@@ -3,6 +3,7 @@
 
 $title: #1177bc;
 $harmony-title-padding: 10px;
+$elegant-title-padding: 12px;
 
 .max-width-email {
   max-width: 660px !important;
@@ -13,6 +14,7 @@ $harmony-title-padding: 10px;
 .pa__properties {
   &.style-natural,
   &.style-harmony,
+  &.style-elegant,
   &.style-modern {
     flex-wrap: wrap;
   }
@@ -37,6 +39,7 @@ $harmony-title-padding: 10px;
   }
   .style-natural &,
   .style-modern &,
+  .style-elegant &,
   .style-harmony & {
     padding: 0 12px;
   }
@@ -45,6 +48,9 @@ $harmony-title-padding: 10px;
   }
   .style-harmony & {
     margin-top: $harmony-title-padding;
+  }
+  .style-elegant & {
+    margin-top: $elegant-title-padding;
   }
 }
 
@@ -63,6 +69,7 @@ $harmony-title-padding: 10px;
   }
   .style-natural &,
   .style-modern &,
+  .style-elegant &,
   .style-harmony & {
     padding: 0 12px;
   }
@@ -70,14 +77,31 @@ $harmony-title-padding: 10px;
     margin-bottom: $harmony-title-padding;
     font-size: 85%;
   }
+  .style-elegant & {
+    margin: -1.25em 0 $elegant-title-padding;
+    position: relative;
+  }
+}
+
+.pa__subtitle-inner {
+  .style-elegant & {
+    display: inline-block;
+    background: black;
+    border: 1px solid white;
+    color: white;
+    padding: 3px 5px;
+    font-weight: 500;
+  }
 }
 
 .pa__p {
   margin: 10px 0;
   display: block;
+  font-weight: 300;
 
   .style-natural &,
   .style-modern &,
+  .style-elegant &,
   .style-harmony & {
     padding: 0 12px;
   }
@@ -123,5 +147,15 @@ $harmony-title-padding: 10px;
     width: 70px;
     background: #b3b7bd;
     display: inline-block;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .pa__properties.columns {
+    display: flex;
+  }
+  .pa__property.column.is-half {
+    flex: none;
+    width: 50%;
   }
 }

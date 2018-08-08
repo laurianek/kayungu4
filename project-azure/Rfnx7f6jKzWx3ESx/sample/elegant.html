@@ -11,16 +11,18 @@ agent: sample
 <section class="section">
   <div class="container max-width-email">
 
-    <div class="pa__properties style-natural columns">
+    <div class="pa__properties style-elegant columns">
       {% for property in site.data.properties-en.properties %}
       <div class="pa__property column is-half">
         <div class="pa__property-inner">
           <a href="#">
-            <figure class="image is-5by3">
+            <figure class="image is-3by2">
               <img src="{{ property.image | absolute }}" alt="{{property.alt}}">
             </figure>
           </a>
-          <a class="pa__subtitle has-text-grey-dark has-text-centered" href="#">{{agent.email}}</a>
+          <a class="pa__subtitle has-text-grey-dark has-text-centered" href="#">
+            <span class="pa__subtitle-inner">{{agent.email}}</span>
+          </a>
           <a class="pa__title is-clearfix has-text-centered" href="#">
             {{property.title}}
           </a>
