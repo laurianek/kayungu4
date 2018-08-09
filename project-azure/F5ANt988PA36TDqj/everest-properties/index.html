@@ -1,9 +1,13 @@
 ---
 layout: default
+title: Everest properties email marketing landing page
+company:
 ---
-<link rel="stylesheet" href="{{ '/assets/css/project-azure.css' | relative_url }}">
+{% assign agent = site.data.agents.everest %}
 
-<section class="hero is-medium is-dark" style="position: relative">
+<link rel="stylesheet" href="{{ '/assets/project-azure/css/project-azure.css' | relative_url }}">
+
+<section class="hero is-medium is-dark" style="position: relative" data-section="attention">
 
   <div class="hero-head">
     <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -33,7 +37,7 @@ layout: default
   <div class="little-plank"></div>
 </section>
 
-<section class="section lk-lead-text pa-attention-interest">
+<section class="section lk-lead-text" data-section="attention-interest">
   <span class="lk-triangle"></span>
   <span class="lk-triangle"></span>
   <div class="container">
@@ -43,13 +47,123 @@ layout: default
     <p class="is-size-3 has-text-centered" style="margin: 1em auto 0; max-width: 600px;">
       Get your personalised templates here and <strong>Stand Out</strong> from your competition.
     </p>
+    <p class="has-text-centered" style="margin: 2rem auto 0;">
+      <a href="#your-templates" class="button is-dark is-outlined is-medium">
+        See your templates
+      </a>
+      <a href="#get-it-now" class="button is-warning is-outline is-medium">
+        Get a template now
+      </a>
+    </p>
   </div>
 </section>
 
-<section class="section pa-desire">
-  conta
+<section class="section" style="padding-top: 5em;" data-section="desire">
+  <div class="container">
+    <h1 class="title has-text-centered">Take your emails from</h1>
+    <div class="columns is-mobile">
+      <div class="column">
+        <figure class="image is-3by2">
+          <img class="pa__boxed-image" src="{{ '/assets/project-azure/images/old-style-email.png' | absolute_url }}" alt="">
+        </figure>
+      </div>
+      <div class="column is-1 is-flex" style="align-items: center; justify-content: center;">
+        <p class="is-bold has-text-centered">
+          <span class="icon is-size-2"><i class="fas fa-long-arrow-alt-right"></i></span>
+          <br/>
+          to this
+        </p>
+      </div>
+      <div class="column">
+        <figure class="image is-3by2">
+          <img class="pa__boxed-image" src="{{ '/assets/project-azure/images/new-style-email.png' | absolute_url }}" alt="">
+        </figure>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="pa-action">
-  click to "buy now" (Get it now) or to Contact me
+<section class="section" data-section="desire">
+  <div class="container">
+    <div class="content">
+      <h1 class="title has-text-centered">Why should you invest in better a email marketing</h1>
+      <div class="is-size-4-desktop is-size-5-touch" style="max-width: 650px; margin: 0 auto;">
+        <ul>
+          <li>Email is your number 1 means of announcing new properties to your prospective buyer or seller</li>
+          <li>Email is also your first point of contact with a customer found via property market site</li>
+          <li>A smoother, nicer experience entices your customer to use more of your services</li>
+          <li>A modern-look email reflect well on your company's savviness</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" data-section="desire">
+  <div class="container" id="your-templates">
+    <div class="content">
+      <h1 class="title has-text-centered">Our templates </h1>
+      <p class="is-size-5-desktop" style="max-width: 960px; margin: 0 auto;">
+        We have a selection of templates, customized to your business and brand.
+        All our emails templates are responsives therefore they are mobile screen compatible!
+        <br>See them all below and choose your favourite.
+      </p>
+    </div>
+  </div>
+
+</section>
+
+<section class="section lk-get-in-touch has-background-warning" data-section="action" id="get-it-now">
+  <div class="container">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://usebasin.com/f/01cc786772b0/ahoy.js" async defer></script>
+    <form accept-charset="UTF-8" action="https://usebasin.com/f/01cc786772b0" enctype="multipart/form-data" method="POST">
+      <h2 class="title text-center">Contact me and get your template</h2>
+
+      <div class="columns">
+        <div class="column">
+
+          <div class="field">
+            <label for="name" class="label">Your name</label>
+            <div class="control">
+              <input type="text" class="input" id="name" name="name" placeholder="e.g. John Doe" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="email" class="label">Your email</label>
+            <div class="control">
+              <input type="text" class="input" id="email" name="email" placeholder="e.g. person@{{ agent.email_root }}" required>
+            </div>
+          </div>
+
+          <div class="field" style="margin-bottom: 20px">
+            <label for="company" class="label">Company</label>
+            <div class="control">
+              <input type="text" readonly class="input" id="company" name="company" value="{{ agent.name }}">
+            </div>
+          </div>
+          <input type="hidden" id="type_of_request" name="type_of_request" value="Email Template" />
+
+          <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+        </div>
+
+        <div class="column">
+          <div class="field lk-get-in-touch-message">
+            <label for="message" class="label">Message</label>
+            <div class="control">
+              <textarea class="textarea" name="message" id="message" required
+                        placeholder="Which template have you chosen or how can I help you?"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="button is-success is-medium" style="min-width: 200px;">
+          Send<i class="fab fa-telegram-plane lk-send-icon"></i>
+        </button>
+      </div>
+
+    </form>
+  </div>
 </section>

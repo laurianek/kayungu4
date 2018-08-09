@@ -13,6 +13,7 @@ everest:
   tel: '02/733.70.70'
   fax: '02/736.15.18'
   email: 'info@everestproperties.be'
+  email_root: '@everestproperties.be'
   site: 'www.everestproperties.be'
   short_site: 'everestproperties.be'
   agent_name: 'Service Commercial 3'
