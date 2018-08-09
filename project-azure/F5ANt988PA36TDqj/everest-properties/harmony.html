@@ -4,30 +4,16 @@ layout: esp-page
 {% assign agent = site.data.agents.everest %}
 
 <div class="pa__page">
-  <section class="section pa__page-heading-section">
-    <div class="container max-width-email">
-      <div class="content">
-      <p>
-        Chère Madame, Cher Monsieur,
-      </p>
-      <p>
-        Nous avons le plaisir de vous faire parvenir si desous, le descriptif
-        des biens susceptibles de vous intéresser.
-      </p>
-      <p>
-        Nous vous en souhaitons bonne réception et sommes à votre disposition
-        pour fixer une visite à votre meilleure convenance.
-        Dans l'éventualité où vos critères de recherche évolueraient,
-        nous vous saurions gré de nous en faire part, ce qui nous permettrait
-        de continuer à vous servir de la meilleure façon possible.
-      </p>
-      </div>
-    </div>
-  </section>
+  {% include everest/intro.html %}
 
   <!--
   {% include_relative includes/harmony.html agent=agent%}
   <span style="display:none">--></span>
+  <style>
+    .pa__page-signature.pa__everest {color: {{agent.primaryColour}}; }
+    .pa__page-signature.pa__everest a {color: {{agent.primaryColour}};}
+    .pa__page-signature.pa__everest a:hover {color: {{agent.primaryColour2}};}
+  </style>
 
   <section class="section pa__page-footer-section">
     <div class="container max-width-email pa__page-outro">
@@ -39,16 +25,34 @@ layout: esp-page
         </p>
       </div>
     </div>
-    <div class="container max-width-email has-background-black">
-      <div class="columns">
-        <div class="column">
+    <div class="container max-width-email pa__page-signature pa__everest">
+      <div class="columns is-mobile">
+        <div class="column is-one-quarter pa__ps__column-logo">
           <img src="http://www.everestproperties.be//Conf/img/logo.jpg" alt="everest logo">
         </div>
         <div class="column">
-          <p>Christina Hagent</p>
-          <p>Awesome Estate Agent Co.</p>
-          <p>District, regular street 45 br</p>
-          <p></p>
+          <div class="content is-small">
+            <p>
+              {{ agent.agentName }}<br/>
+              {{ agent.name }}<br/>
+              {% for address in agent.address%}
+              {{ address }}<br/>
+              {% endfor %}
+            </p>
+            <p>
+              {% for tel in agent.tel%}
+              Tel: <a href="tel:{{ tel }}">{{ tel }}</a><br/>
+              {% endfor %}
+
+              {% for fax in agent.fax%}
+              Fax: {{ fax }}<br/>
+              {% endfor %}
+            </p>
+            <p>
+              <a href="mailto:{{ agent.email }}">{{ agent.email }}</a><br/>
+              <a href="{{ agent.site }}">{{ agent.site }}</a>
+            </p>
+          </div>
         </div>
       </div>
     </div>

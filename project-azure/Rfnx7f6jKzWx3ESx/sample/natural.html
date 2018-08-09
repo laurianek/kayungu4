@@ -13,8 +13,8 @@ agent: sample
 {% assign agent = site.data.agents.sample %}
 {% endif %}
 
-{% if agent.primaryColour %}
-{% include email-agent-style.html primaryColour=agent.primaryColour%}
+{% if agent.primaryColour and agent.primaryColour2 %}
+{% include email-agent-style.html agent=agent %}
 {% endif %}
 
 <section class="section">

@@ -4,26 +4,7 @@ layout: esp-page
 {% assign agent = site.data.agents.everest %}
 
 <div class="pa__page">
-  <section class="section pa__page-heading-section">
-    <div class="container max-width-email">
-      <div class="content">
-      <p>
-        Chère Madame, Cher Monsieur,
-      </p>
-      <p>
-        Nous avons le plaisir de vous faire parvenir si desous, le descriptif
-        des biens susceptibles de vous intéresser.
-      </p>
-      <p>
-        Nous vous en souhaitons bonne réception et sommes à votre disposition
-        pour fixer une visite à votre meilleure convenance.
-        Dans l'éventualité où vos critères de recherche évolueraient,
-        nous vous saurions gré de nous en faire part, ce qui nous permettrait
-        de continuer à vous servir de la meilleure façon possible.
-      </p>
-      </div>
-    </div>
-  </section>
+  {% include everest/intro.html %}
 
   <!--
   {% include_relative includes/elegant.html agent=agent%}

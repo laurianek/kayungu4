@@ -1,17 +1,20 @@
 
+{% assign agent = include.agent %}
+
 <style>
   .style-sapphire .pa__property-inner {
-  border-top-color: {{ include.primaryColour }};
+  border-top-color: {{ agent.primaryColour }};
   }
-  .pa__title { color: {{ include.primaryColour }}; }
+  .pa__title { color: {{ agent.primaryColour }}; }
+  .pa__title:hover { color: {{ agent.primaryColour2 }}; }
 
   .style-harmony .button,
   .style-elegant .button {
-  border-color: {{ include.primaryColour }};
-  color: {{ include.primaryColour }};
+  border-color: {{ agent.primaryColour }};
+  color: {{ agent.primaryColour }};
   }
   .style-harmony .button:hover,
   .style-elegant .button:hover {
-  background: {{ include.primaryColour }};
+  background: {{ agent.primaryColour }};
   }
 </style>

@@ -226,3 +226,22 @@ $elegant-title-padding: 12px;
 .pa__page-outro {
   padding-bottom: 1.5rem;
 }
+.pa__page-signature {
+  padding: 5px 0;
+
+  .content.is-small p {
+    margin-bottom: 0.4em;
+  }
+  .columns {
+    color: initial;
+  }
+
+  &.pa__everest {
+    border-top: 5px solid currentColor;
+    border-bottom: 5px solid currentColor;
+
+  }
+}
+.pa__ps__column-logo {
+  min-width: 100px;
+}
