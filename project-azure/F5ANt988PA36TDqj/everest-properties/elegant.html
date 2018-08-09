@@ -1,37 +1,22 @@
 ---
 layout: esp-page
+emailTemplate: includes/elegant.html
 ---
 {% assign agent = site.data.agents.everest %}
 
 <div class="pa__page">
-  {% include everest/intro.html %}
+  <style>
+    .pa__page-signature.pa__everest {color: {{agent.primaryColour}}; }
+    .pa__page-signature.pa__everest a {color: {{agent.primaryColour}};}
+    .pa__page-signature.pa__everest a:hover {color: {{agent.primaryColour2}};}
+  </style>
+
+  {% include everest/intro.html agent=agent %}
 
   <!--
-  {% include_relative includes/elegant.html agent=agent%}
+  {% include_relative {{ page.emailTemplate }} agent=agent%}
   <span style="display:none">--></span>
 
-  <section class="section pa__page-footer-section">
-    <div class="container max-width-email pa__page-outro">
-      <div class="content">
-        <p>
-          Nous restons à votre entière disposition et vous prions d'agréer,
-          Chère Madame, Cher Monsieur, l'expression de nos salutations
-          distinguées
-        </p>
-      </div>
-    </div>
-    <div class="container max-width-email has-background-black">
-      <div class="columns">
-        <div class="column">
-          <img src="http://www.everestproperties.be//Conf/img/logo.jpg" alt="everest logo">
-        </div>
-        <div class="column">
-          <p>Christina Hagent</p>
-          <p>Awesome Estate Agent Co.</p>
-          <p>District, regular street 45 br</p>
-          <p></p>
-        </div>
-      </div>
-    </div>
-  </section>
+  {% include everest/outro.html agent=agent %}
+
 </div>

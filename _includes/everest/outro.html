@@ -1,0 +1,45 @@
+
+{% assign agent = include.agent %}
+
+<section class="section pa__page-footer-section">
+  <div class="container max-width-email pa__page-outro">
+    <div class="content">
+      <p>
+        Nous restons à votre entière disposition et vous prions d'agréer,
+        Chère Madame, Cher Monsieur, l'expression de nos salutations
+        distinguées
+      </p>
+    </div>
+  </div>
+  <div class="container max-width-email pa__page-signature pa__everest">
+    <div class="columns is-mobile">
+      <div class="column is-one-quarter pa__ps__column-logo">
+        <img src="http://www.everestproperties.be//Conf/img/logo.jpg" alt="everest logo">
+      </div>
+      <div class="column">
+        <div class="content is-small">
+          <p>
+            {{ agent.agentName }}<br/>
+            {{ agent.name }}<br/>
+            {% for address in agent.address%}
+            {{ address }}<br/>
+            {% endfor %}
+          </p>
+          <p>
+            {% for tel in agent.tel%}
+            Tel: <a href="tel:{{ tel }}">{{ tel }}</a><br/>
+            {% endfor %}
+
+            {% for fax in agent.fax%}
+            Fax: {{ fax }}<br/>
+            {% endfor %}
+          </p>
+          <p>
+            <a href="mailto:{{ agent.email }}">{{ agent.email }}</a><br/>
+            <a href="{{ agent.site }}">{{ agent.site }}</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
