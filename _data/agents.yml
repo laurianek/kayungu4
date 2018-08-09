@@ -20,6 +20,24 @@ everest:
   primary_colour: '#68b39e'
   primary_colour2: '#3c7766'
 
+haussmann:
+  name: 'Haussmann Properties'
+  address:
+    - 'Boulevard Baudouin 14-15'
+    - '1000 Bruxelles'
+  tel:
+    - '+32 2 880 68 68'
+    - '+32 477 68 32 18'
+  fax:
+    - '+32 2 514 44 92'
+  email: 'info@haussmannproperties.com'
+  email_root: '@haussmannproperties.com'
+  site: 'www.haussmannproperties.com'
+  short_site: 'haussmannproperties.com'
+  agent_name: 'Amanda Bright'
+  primary_colour: '#1a9ede'
+  primary_colour2: '#444444'
+
 
 # styles: imperial, royal, zen, serene, tranquil, cordial, balanced, chic, art-deco
 
