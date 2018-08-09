@@ -239,9 +239,14 @@ $elegant-title-padding: 12px;
   &.pa__everest {
     border-top: 5px solid currentColor;
     border-bottom: 5px solid currentColor;
-
+  }
+  &.pa__haussmann {
+    border-top: 5px solid currentColor;
   }
 }
 .pa__ps__column-logo {
   min-width: 100px;
+  .pa__haussmann & {
+    min-width: 250px;
+  }
 }
