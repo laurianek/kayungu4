@@ -1,0 +1,33 @@
+---
+---
+
+.pa-esp__main {
+  padding-top: 1.5rem;
+  padding-bottom: 0.75rem;
+}
+
+.pa-esp__brand {
+  img {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 66px;
+    margin-right: 10px;
+    opacity: 0.5;
+  }
+}
+
+.pa-esp__email {
+  min-height: calc(85vh - 45px);
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+.footer {
+  height: calc(15vh - 36px);;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
