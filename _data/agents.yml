@@ -1,7 +1,9 @@
 
 sample:
   name: 'Awesome Estate Agent'
-  email: 'awesome-estate-agent.com'
+  email: 'info@awesome-estate-agent.com'
+  site: 'www.awesome-estate-agent.com'
+  short_site: 'awesome-estate-agent.com'
 
 everest:
   name: 'EVEREST Properties'
@@ -12,9 +14,10 @@ everest:
   fax: '02/736.15.18'
   email: 'info@everestproperties.be'
   site: 'www.everestproperties.be'
-  agentName: 'Service Commercial 3'
-  primaryColour: '#68b39e'
-  primaryColour2: '#3c7766'
+  short_site: 'everestproperties.be'
+  agent_name: 'Service Commercial 3'
+  primary_colour: '#68b39e'
+  primary_colour2: '#3c7766'
 
 
 # styles: imperial, royal, zen, serene, tranquil, cordial, balanced, chic, art-deco

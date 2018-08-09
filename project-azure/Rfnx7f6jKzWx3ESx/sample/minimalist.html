@@ -13,7 +13,7 @@ agent: sample
 {% assign agent = site.data.agents.sample %}
 {% endif %}
 
-{% if agent.primaryColour and agent.primaryColour2 %}
+{% if agent.primary_colour and agent.primary_colour2 %}
 {% include email-agent-style.html agent=agent %}
 {% endif %}
 
@@ -35,7 +35,7 @@ agent: sample
         <p class="pa__p has-text-grey-dark">
           {{property.description}}
         </p>
-        <a class="pa__subtitle has-text-grey-dark" href="#">{{agent.email}}</a>
+        <a class="pa__subtitle has-text-grey-dark" href="#">{{agent.short_site}}</a>
         <hr/>
       </div>
       {% endfor %}
