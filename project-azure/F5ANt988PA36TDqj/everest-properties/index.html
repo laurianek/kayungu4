@@ -114,49 +114,67 @@ company:
         <br>See them all below and choose your favourite.
       </p>
     </div>
+
     <div class="columns is-multiline">
-      <div class="column is-one-quarter pa__page__email-template-name">
-        <h1 class="subtitle is-2">Natural</h1>
+      <div class="column is-one-quarter pa__page__email-template-name is-hidden-mobile">
+        {% include template-name.html name="Natural" template="natural" %}
       </div>
       <div class="column is-three-quarters pa__page__email-template-preview">
-        <div><iframe src="{{ '/project-azure/F5ANt988PA36TDqj/everest-properties/natural-template.html' | relative_url }}" frameborder="0"></iframe></div>
+        <div class="is-hidden-tablet">
+          {% include template-name.html name="Natural" template="natural" %}
+        </div>
+        <div class="iframe-container"><iframe src="./natural-template.html" frameborder="0"></iframe></div>
       </div>
 
       <div class="column is-three-quarters pa__page__email-template-preview">
-        <div><iframe src="{{ '/project-azure/F5ANt988PA36TDqj/everest-properties/harmony-template.html' | relative_url }}" frameborder="0"></iframe></div>
+        <div class="is-hidden-tablet">
+          {% include template-name.html name="Harmony" template="harmony" %}
+        </div>
+        <div class="iframe-container"><iframe src="./harmony-template.html" frameborder="0"></iframe></div>
       </div>
-      <div class="column is-one-quarter pa__page__email-template-name">
-        <h1 class="subtitle is-2">Harmony</h1>
-      </div>
-
-      <div class="column is-one-quarter pa__page__email-template-name">
-        <h1 class="subtitle is-2">Elegant</h1>
-      </div>
-      <div class="column is-three-quarters pa__page__email-template-preview">
-        <div><iframe src="{{ '/project-azure/F5ANt988PA36TDqj/everest-properties/elegant-template.html' | relative_url }}" frameborder="0"></iframe></div>
+      <div class="column is-one-quarter pa__page__email-template-name is-hidden-mobile">
+        {% include template-name.html name="Harmony" template="harmony" %}
       </div>
 
-      <div class="column is-three-quarters pa__page__email-template-preview">
-        <div><iframe src="{{ '/project-azure/F5ANt988PA36TDqj/everest-properties/sapphire-template.html' | relative_url }}" frameborder="0"></iframe></div>
-      </div>
-      <div class="column is-one-quarter pa__page__email-template-name">
-        <h1 class="subtitle is-2">Sapphire</h1>
-      </div>
-
-      <div class="column is-one-quarter pa__page__email-template-name">
-        <h1 class="subtitle is-2">Modern</h1>
+      <div class="column is-one-quarter pa__page__email-template-name is-hidden-mobile">
+        {% include template-name.html name="Elegant" template="elegant" %}
       </div>
       <div class="column is-three-quarters pa__page__email-template-preview">
-        <div><iframe src="{{ '/project-azure/F5ANt988PA36TDqj/everest-properties/modern-template.html' | relative_url }}" frameborder="0"></iframe></div>
+        <div class="is-hidden-tablet">
+          {% include template-name.html name="Elegant" template="elegant" %}
+        </div>
+        <div class="iframe-container"><iframe src="./elegant-template.html" frameborder="0"></iframe></div>
       </div>
 
       <div class="column is-three-quarters pa__page__email-template-preview">
-        <div><iframe src="{{ '/project-azure/F5ANt988PA36TDqj/everest-properties/minimalist-template.html' | relative_url }}" frameborder="0"></iframe></div>
+        <div class="is-hidden-tablet">
+          {% include template-name.html name="Sapphire" template="sapphire" %}
+        </div>
+        <div class="iframe-container"><iframe src="./sapphire-template.html" frameborder="0"></iframe></div>
       </div>
-      <div class="column is-one-quarter pa__page__email-template-name">
-        <h1 class="subtitle is-2">Minimalist</h1>
+      <div class="column is-one-quarter pa__page__email-template-name is-hidden-mobile">
+        {% include template-name.html name="Sapphire" template="sapphire" %}
       </div>
 
+      <div class="column is-one-quarter pa__page__email-template-name is-hidden-mobile">
+        {% include template-name.html name="Modern" template="modern" %}
+      </div>
+      <div class="column is-three-quarters pa__page__email-template-preview">
+        <div class="is-hidden-tablet">
+          {% include template-name.html name="Modern" template="modern" %}
+        </div>
+        <div class="iframe-container"><iframe src="./modern-template.html" frameborder="0"></iframe></div>
+      </div>
+
+      <div class="column is-three-quarters pa__page__email-template-preview">
+        <div class="is-hidden-tablet">
+          {% include template-name.html name="Minimalist" template="minimalist" %}
+        </div>
+        <div class="iframe-container"><iframe src="./minimalist-template.html" frameborder="0"></iframe></div>
+      </div>
+      <div class="column is-one-quarter pa__page__email-template-name is-hidden-mobile">
+        {% include template-name.html name="Minimalist" template="minimalist" %}
+      </div>
 
     </div>
   </div>

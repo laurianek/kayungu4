@@ -5,7 +5,7 @@
   position: absolute;
   height: 70px;
   left: 0;
-  width: 50%;
+  width: 99%;
   background: #363636;
   bottom: -70px;
 }
@@ -15,16 +15,36 @@
   border-radius: 4px;
 }
 
+$a-var: 550px;
 .pa__page__email-template-preview {
-  > div{
+  .iframe-container {
     width: 100%;
-    min-height: 550px;
+    min-height: $a-var;
     height: 100%;
   }
   iframe {
     width: 100%;
     height: 100%;
     border: 1px solid;
+    min-height: $a-var;
+  }
+  .is-hidden-tablet {
+    > * {
+      display: inline-block;
+    }
+    .is-2 {
+      font-size: 1.5rem;
+    }
+    .is-4 {
+      margin-right: 15px;
+    }
+    .subtitle {
+      margin-top: 2em;
+      margin-bottom: 5px;
+    }
+    p {
+      margin-bottom: 5px;
+    }
   }
 }
 
@@ -33,4 +53,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  .subtitle.is-2 {
+    margin-bottom: 0;
+  }
 }
