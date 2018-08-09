@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/email-provider.css' | relative_url }}">
+
+<section class="section pa-esp__main has-background-light">
+  <div class="columns is-multiline is-1">
+    <div class="column is-one-quarter pa-esp__brand is-clearfix">
+      <h1 class="title is-2 has-text-grey">
+        <img src="{{'/assets/project-azure/images/email-icon.png' | absolute_url }}" alt="">
+        <span class="pa-esp__brand-title">J-MAIL</span>
+      </h1>
+    </div>
+    <div class="column is-three-quarters pa-esp__header">
+      <div class="columns is-mobile">
+        <div class="column is-three-fifths">
+          <div class="notification has-background-grey-lighter"></div>
+        </div>
+        <div class="column">
+          <div class="notification has-background-grey-lighter"></div>
+        </div>
+        <div class="column is-hidden-mobile">
+          <div class="notification has-background-grey-lighter "></div>
+        </div>
+      </div>
+    </div>
+    <div class="column is-one-quarter pa-esp__sidebar is-hidden-mobile">
+      <div class="notification has-background-grey-lighter"></div>
+      <div class="notification has-background-grey-lighter"></div>
+      <div class="notification has-background-grey-lighter"></div>
+      <div class="notification has-background-grey-lighter"></div>
+      <div class="notification has-background-grey-lighter"></div>
+    </div>
+    <div class="column pa-esp__email">
+      {{ content }}
+    </div>
+  </div>
+</section>
