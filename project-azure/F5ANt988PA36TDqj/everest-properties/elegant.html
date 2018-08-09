@@ -1,5 +1,55 @@
 ---
 layout: esp-page
 ---
+{% assign agent = site.data.agents.everest %}
 
-<iframe src="{{ '/project-azure/Rfnx7f6jKzWx3ESx/sample/elegant.html' | abloslute_url}}" frameborder="0"></iframe>
+<div class="pa__page">
+  <section class="section pa__page-heading-section">
+    <div class="container max-width-email">
+      <div class="content">
+      <p>
+        Chère Madame, Cher Monsieur,
+      </p>
+      <p>
+        Nous avons le plaisir de vous faire parvenir si desous, le descriptif
+        des biens susceptibles de vous intéresser.
+      </p>
+      <p>
+        Nous vous en souhaitons bonne réception et sommes à votre disposition
+        pour fixer une visite à votre meilleure convenance.
+        Dans l'éventualité où vos critères de recherche évolueraient,
+        nous vous saurions gré de nous en faire part, ce qui nous permettrait
+        de continuer à vous servir de la meilleure façon possible.
+      </p>
+      </div>
+    </div>
+  </section>
+  <!--
+  {% include_relative includes/elegant.html agent=agent%}
+  <span style="display:none">--></span>
+
+  <section class="section pa__page-footer-section">
+    <div class="container max-width-email pa__page-outro">
+      <div class="content">
+        <p>
+          Nous restons à votre entière disposition et vous prions d'agréer,
+          Chère Madame, Cher Monsieur, l'expression de nos salutations
+          distinguées
+        </p>
+      </div>
+    </div>
+    <div class="container max-width-email has-background-black">
+      <div class="columns">
+        <div class="column">
+          <img src="http://www.everestproperties.be//Conf/img/logo.jpg" alt="everest logo">
+        </div>
+        <div class="column">
+          <p>Christina Hagent</p>
+          <p>Awesome Estate Agent Co.</p>
+          <p>District, regular street 45 br</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

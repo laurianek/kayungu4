@@ -1,12 +1,16 @@
 ---
 layout: base-no-footer
-agent: sample
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+-->
 <link rel="stylesheet" href="{{ '/assets/css/email-sample.css' | relative_url }}">
 
-{% assign agent = site.data.agents[page.agent] %}
+{% if include.agent %}
+  {% assign agent = include.agent %}
+{% else %}
+  {% assign agent = site.data.agents.sample %}
+{% endif %}
 
 <section class="section">
   <div class="container max-width-email">
@@ -21,7 +25,7 @@ agent: sample
             </figure>
           </a>
           <a class="pa__subtitle has-text-grey-dark has-text-centered" href="#">
-            <span class="pa__subtitle-inner">{{agent.email}}</span>
+            <span class="pa__subtitle-inner">{{agent.name}}</span>
           </a>
           <a class="pa__title is-clearfix has-text-centered" href="#">
             {{property.title}}
@@ -41,11 +45,3 @@ agent: sample
 
   </div>
 </section>
-<footer class="footer has-background-black">
-  <div class="content has-text-centered">
-    <p>Christina Hagent</p>
-    <p>Awesome Estate Agent Co.</p>
-    <p>District, regular street 45 br</p>
-    <p></p>
-  </div>
-</footer>

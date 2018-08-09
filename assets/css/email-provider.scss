@@ -8,7 +8,7 @@
 
 .pa-esp__brand {
   text-align: center;
-  
+
   img {
     display: inline-block;
     vertical-align: bottom;
@@ -25,6 +25,7 @@
 
 .pa-esp__email {
   min-height: calc(85vh - 45px);
+  height: calc(85vh - 45px);
 }
 
 .footer {

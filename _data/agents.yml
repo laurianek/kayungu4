@@ -3,6 +3,17 @@ sample:
   name: 'Awesome Estate Agent'
   email: 'awesome-estate-agent.com'
 
+everest:
+  name: 'EVEREST Properties'
+  address:
+    - 'Boulevard jamar 53'
+    - '1060 Saint-Gilles'
+  tel: '02/733.70.70'
+  fax: '02/736.15.18'
+  email: 'info@everestproperties.be'
+  site: 'www.everestproperties.be'
+  agentName: 'Service Commercial 3'
+
 
 # styles: imperial, royal, zen, serene, tranquil, cordial, balanced, chic, art-deco
 
