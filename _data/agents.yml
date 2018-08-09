@@ -13,6 +13,7 @@ everest:
   email: 'info@everestproperties.be'
   site: 'www.everestproperties.be'
   agentName: 'Service Commercial 3'
+  primaryColour: '#68b39e'
 
 
 # styles: imperial, royal, zen, serene, tranquil, cordial, balanced, chic, art-deco

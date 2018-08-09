@@ -12,6 +12,10 @@ layout: base-no-footer
   {% assign agent = site.data.agents.sample %}
 {% endif %}
 
+{% if agent.primaryColour %}
+{% include email-agent-style.html primaryColour=agent.primaryColour%}
+{% endif %}
+
 <section class="section">
   <div class="container max-width-email">
 
