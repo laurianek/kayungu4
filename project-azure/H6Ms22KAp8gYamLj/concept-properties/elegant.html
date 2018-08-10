@@ -1,0 +1,22 @@
+---
+layout: esp-page
+emailTemplate: includes/elegant.html
+---
+{% assign agent = site.data.agents.concept %}
+
+<div class="pa__page">
+  <style>
+    .pa__page-signature {color: {{agent.primary_colour}}; }
+    .pa__page-signature a {color: {{agent.primary_colour}};}
+    .pa__page-signature a:hover {color: {{agent.primary_colour2}};}
+  </style>
+
+  {% include project-azure/intro_02.html agent=agent %}
+
+  <!--
+  {% include_relative {{ page.emailTemplate }} agent=agent%}
+  <span style="display:none">--></span>
+
+  {% include project-azure/outro_03.html agent=agent %}
+
+</div>

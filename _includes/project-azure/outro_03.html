@@ -1,0 +1,36 @@
+
+{% assign agent = include.agent %}
+
+<section class="section pa__page-footer-section">
+  <div class="container max-width-email pa__page-signature pa__concept">
+    <div class="columns">
+      <div class="column is-one-quarter pa__ps__column-logo has-text-centered">
+        <img src="/assets/project-azure/images/concept-prop.jpg" alt="{{ agent.name }} logo">
+      </div>
+      <div class="column">
+        <div class="content is-small">
+          <p>
+            {{ agent.agent_name }}<br/>
+            {{ agent.name }}<br/>
+            {% for address in agent.address%}
+            {{ address }}<br/>
+            {% endfor %}
+          </p>
+          <p>
+            {% for tel in agent.tel%}
+            Tel: <a href="tel:{{ tel }}">{{ tel }}</a><br/>
+            {% endfor %}
+
+            {% for fax in agent.fax%}
+            Fax: {{ fax }}<br/>
+            {% endfor %}
+          </p>
+          <p>
+            <a href="mailto:{{ agent.email }}">{{ agent.email }}</a><br/>
+            <a href="{{ agent.site }}">{{ agent.site }}</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

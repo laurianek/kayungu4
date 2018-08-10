@@ -243,10 +243,22 @@ $elegant-title-padding: 12px;
   &.pa__haussmann {
     border-top: 5px solid currentColor;
   }
+  &.pa__concept {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    background: black;
+    border-bottom: 5px solid currentColor;
+    .columns {
+      color: white;
+    }
+  }
 }
 .pa__ps__column-logo {
   min-width: 100px;
   .pa__haussmann & {
+    min-width: 250px;
+  }
+  .pa__concept & {
     min-width: 250px;
   }
 }

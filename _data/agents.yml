@@ -37,8 +37,27 @@ haussmann:
   agent_name: 'Amanda Bright'
   primary_colour: '#1a9ede'
   primary_colour2: '#444444'
+  secondary_colour2: '#444444'
+
+# http://www.conceptproperties.be/index.php?action=agency&cagence=concept
+concept:
+  name: 'Concept Properties'
+  address:
+    - '82 Av. Léopold Wiener'
+    - '1170 Watermael-Boitsfort'
+  tel:
+    - '02/672.00.72'
+    - '0472/17.99.57'
+  email: 'info@conceptproperties.be' # <- not too sure about this
+  email_root: '@conceptproperties.be'
+  site: 'www.conceptproperties.be'
+  short_site: 'conceptproperties.be'
+  agent_name: 'Amanda Bright'
+  primary_colour: '#bf242d'
+  primary_colour2: '#6b1419'
+  secondary_colour2: '#000000'
+
 
 
 # styles: imperial, royal, zen, serene, tranquil, cordial, balanced, chic, art-deco
-
 # taken => minimalist, sapphire, elegant, harmony, natural, modern
